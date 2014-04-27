@@ -214,3 +214,18 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 .dist-buildwrapper/ConcurrencyAccount.cabal
+.dist-buildwrapper/Setup.hs
+*.bwinfo
+*.bwusage
+.dist-buildwrapper/src/ChanAccount.hs
+.dist-buildwrapper/src/ChanAccountAlgo.hs
+.dist-buildwrapper/src/LocksAlgo.hs
+.dist-buildwrapper/src/Main.hs
+.dist-buildwrapper/src/StmAccount.hs
+.dist-buildwrapper/src/StmAccountAlgo.hs
+.dist-buildwrapper/src/SyncAccount.hs
+.dist-buildwrapper/src/SyncAccountAlgo.hs
+.dist-buildwrapper/tests/TestChanAccount.hs
+.dist-buildwrapper/tests/TestScenario.hs
+.dist-buildwrapper/tests/TestStmAccount.hs
+.dist-buildwrapper/tests/TestSyncAccount.hs
