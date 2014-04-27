@@ -1,0 +1,31 @@
+name:           ConcurrencyAccount
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         senmenty
+
+executable ConcurrencyAccount
+  hs-source-dirs:  src, tests
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   stm >=2.4.2 && <2.5,
+                   mtl >=2.1.2 && <2.2,
+                   async >=2.0.1 && <2.1,
+                   time >=1.4.0 && <1.5,
+                   concurrent-extra >=0.7.0 && <0.8,
+                   monadlist >=0.0.2 && <0.1
+  ghc-options:     -O2 -threaded -rtsopts -eventlog
+  other-modules:   
+                   ChanAccount,
+                   ChanAccountAlgo,
+                   StmAccount,
+                   StmAccountAlgo,
+                   SyncAccount,
+                   SyncAccountAlgo,
+                   TestChanAccount,
+                   TestScenario,
+                   TestStmAccount,
+                   TestSyncAccount,
+                   LocksAlgo
+
