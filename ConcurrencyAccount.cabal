@@ -1,8 +1,8 @@
 name:           ConcurrencyAccount
 version:        0.1
-cabal-version:  >=1.2
+cabal-version:  >= 1.2
 build-type:     Simple
-author:         senmenty
+author:         Quentin Duval
 
 executable ConcurrencyAccount
   hs-source-dirs:  src, tests
