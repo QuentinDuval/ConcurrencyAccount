@@ -9,7 +9,7 @@ import qualified TestSyncAccount
 main :: IO ()
 main = do
    putStrLn "Run all tests:"
-   mapM_ (\(s,t) -> putStrLn s >> runTest 1000 t) allTests
+   mapM_ (\(s,t) -> putStrLn s >> runTest 5000 t) allTests
 
 
 -- | All implementations to test

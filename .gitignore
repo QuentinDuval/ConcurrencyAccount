@@ -229,3 +229,4 @@ pip-log.txt
 .dist-buildwrapper/tests/TestScenario.hs
 .dist-buildwrapper/tests/TestStmAccount.hs
 .dist-buildwrapper/tests/TestSyncAccount.hs
+.dist-buildwrapper/src/StmPresentation.pdf
