@@ -11,6 +11,7 @@ It holds several Haskell implementations of concurrent bank accounts.
 Then algorithms are built on top of it to:
 	- atomically transfers money between the accounts
 	- perform atomic observation of their balances
+
 STM implementations shows how easy it is to compose STM blocks to build atomic transactions.
 
 
@@ -20,5 +21,6 @@ To work, the runtime options should be activate: +RTS -Nx (where x stands for a 
 Most of the results I got showed that, in this context of very small transactions:
 	- STM performs pretty well.
 	- STM channels implementation is about 4 times slower
-	  (STM channels should be preferred when the content of transaction is bigger)
 	- Lock approches are (much) slower, especially with the try lock approach.
+
+ It seems that STM channels should be preferred when the content of transaction is bigger.
